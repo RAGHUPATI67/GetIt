@@ -1,0 +1,262 @@
+
+ Jira:It is Test mangement tool(Manages all phases of STLC),Agile Management(Mostly used in agile), Defect Management/Reporting
+
+STLC:
+-----
+
+1.Test Planning: Test Manager Creates Test Plan which will have Objective & Strategy of Testing
+2.Test Monitoring & Control:
+	>Done By Manager or person allocated By Test Manager
+	>Monitoring Test Activity happens
+		>Creating Test Cases/Day
+		>Test Cases Created by per Tester
+		>Test Cases Executed Per Day
+		>Test Cases Executed Per Tester
+		>Defect identified By Per Tester
+		>Defect identified By testing Team		> JIRA
+
+                >By Scrum Board Manager will keep Eye on the task of developer or tester
+
+3.Test Analysis : UnderStand SRS/BRS
+4.Test Design : Writing Test Cases
+		    Zephyer plugin used for Test Designing >Management of test cases
+
+
+5.Test Implementation:  Writing Automation & Set the Test Environment
+6.Test Execution:
+		> Product will be given by Developer
+		> Tester will start performing Testing
+
+
+		Test Cycle 1:
+		-------------
+		1000 TC > Execute 1000 TC  > 200 Defects
+		200 Defects are reported
+			
+			Developer will Fix Defects & Updated Product/software will be given to 		you/tester once again.
+
+
+		Test Cycle 2:
+		------------
+		ReTesting & Regression Testing will be performed
+		50 Defects are identified & reported 
+						Developer will Fix Defects & Updated Product will be given to you once again
+
+
+		Test Cycle 3:
+		-------------
+		ReTesting & Regression Testing will be performed
+		0 Defects are identified 
+					
+
+		In Test Cycle 3 in above you met required Quality.
+7.Test Clouser Activity
+	>Storing & Sharing Artifacts/Documents
+	>Storing & Sharing Experience
+
+
+Managing Test Cycle also possible in Case of JIRA.
+
+
+
+Agile:
+-----
+Product Backlog : Total Pending Requirement/User Story for Complete Product
+Sprint Backlog  : Total Pending requirment / User Story for One Iteration
+
+1000 User Story
+250 req  > R1  >
+250 req	 > R2
+250 req  > R3
+250 req  > R4
+
+1st Day of Engineering
+ Total Subject to Clear Degree : 40    : Product Backlog ()
+ Total Subject  per Sem to Clear : 5
+
+R1 		>D	>C	>T	>Dep	>Maintenance 		Iteration/Sprint 1
+PB:1000						PB:750
+SB:250						SB:0
+
+
+R1 + R2		>D	>C	>T	>Dep	>Maintenance 		Iteration 2
+PB:750						PB:500
+SB:250						SB:0
+
+R1 + R2	+ R3	>D	>C	>T	>Dep	>Maintenance 		Iteration 3
+PB:500						PB:250
+SB:250						SB:0
+
+R1 + R2	+ R3+R4	>D	>C	>T	>Dep	>Maintenance 		Iteration 4
+PB:250						PB:0
+SB:250						SB:0
+
+
+
+Scrum Master : Team Lead > Gives Guidance & Support
+Product Owner : BA
+
+
+Whole Team Approach:
+--------------------
+A group is framed in Which designer, programmer, tester, customer representative will be involve.
+
+
+Adv:
+1.Quality is not responsibility of indivisual person its a group responsibility.
+2.Customer is acting as immediate Validator which will give high Quality of End Product
+3.There will be 15 min Daily StandUp Meeting (Due to this transParancy within team is there)
+	- What Happened YesterDay
+	- Any bottleneck ?
+	- What is Planned for Today ?
+4.Scrum Board also Adds in transParancy: (Notice Board of Your Collage)
+	
+	To Do 			In Progress			Done
+	-----			-----------			-------
+								Writting TC
+	
+								Writing Code
+
+	
+User Story:
+------------
+As a Customer 
+I want login Function
+So that I can do banking transactions at any time
+
+>Agile Iterations happens for 1-4 weeks only
+
+
+
+
+As a visitor I want search feature on Website  so that I can search any interested course
+
+Retrospective Meeting:
+----------------------
+Happens at the end of Every Iteration/sprint to Check what went right, what went wrong & What is improvement areas for future.
+
+
+As a <Type of Customer>
+I want <Some Feature or Function>
+So that <Some Benefits to Customer>
+
+
+-----------------------------------------------------------------------------------------------------------
+Epic : Larger User Story which can be splitted/broken in Multiple User Story
+       High Level of Requirement
+
+
+As a Customer of The Bank
+I want Mobile Banking Application 
+So that I can do Banking Transaction at any time
+	
+
+
+User Story Points:
+------------------
+	Estimated Efforts for completion of any User STory or Task
+
+Fibonacci Series :
+-----------------
+0,1,	1, 2, 3, 5, 8, 13, 21 etc
+
+
+
+
+
+Task of Developer:
+----------------
+1.Review/Understand User Story
+2.Design
+3.Code writing
+4.Writing Unit Testing Test Cases
+5.Execute Unit Testing Test Cases
+6.Debugging(Removing Bug Activity)
+
+
+Task of Tester:
+1.Review/Understand User Story
+2.Write Test Cases
+3.Write RTM
+4.Review
+5.Test Environment Setup
+6.Execute Test Case
+7.Defect Reporting
+8.Writing Automation Scripts etc.
+------------------------------------------------------------------------------------------------------
+
+EPIC:
+-----
+As a Student I want Web Application so that I can complete my course at any time
+As a trainer I want web application for login so that I can my manage courses
+As a Visitor I want udemy Web Application so that I can explore courses without registration
+
+User Story:
+-----------
+As a visitor I want search feature on Website  so that I can search any interested course
+As a Visitor I want sign-up feature  on website so that I can register my self
+As a Visitor I want sign-in option so that I can sign-in when ever required
+As a Visitor I want filter option so that I filter out some not interested courses
+
+
+1.Create a Sprint 
+2.Add User Stories to Sprint
+3.Click on Sprint
+
+
+Created Test Cycle > Adding Test into Cycle.
+
+
+
+JIRA: It is Test Management Tool which manages all phases of STLC
+
+1.Test Planning
+2.Monitoring & Control
+3.Test Analysis
+4.Test Design 
+5.Test Implementation
+6.Test Execution
+7.Test Clouser
+
+>Created  Scrum Project
+>Created Version
+>Created Epic
+>Created User Story
+>Adding Story to Sprint
+
+>Created Sprint
+>Then WE Added user story to sprint
+>Started Sprint
+>Created Sub-Task(Developer &/ Tester's sub Task)  for Every User Story
+>Practicing Scrum Board
+
+Test Case Management:
+--------------------------
+>Added Plugin for Test Management > Zephyr
+>Created Test Cases
+Added Steps in test Cases 
+>Test Cycle Creation
+>Test Execution
+>Defect|Bug  Reporting
+>Report
+	BurnDown Chart: Represents how many story points you have burned against given timeline
+			Its a graph with Story point with Y-axis & Number of Days as X-axis.
+
+
+------------------------------------------------------------------------------------------------------------------
+Similar to Jira : ALM(QC)- HP, TestLink - Free/OpenSource, Tarantula etc.
+
+                  >Application life cycle Managment
+
+-------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
